@@ -1,7 +1,7 @@
 {
   "name": "saferr",
   "version": "1.0.0",
-  "description": "Safe error-handling library for JavaScript. Supports both promises and regular functions. Inspired by Go.",
+  "description": "A tiny JavaScript library for safe error-handling. Supports async/await, promises and regular functions. Inspired by Go.",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
