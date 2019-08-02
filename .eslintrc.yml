@@ -1,0 +1,18 @@
+parser: babel-eslint
+
+plugins:
+- prettier
+
+extends:
+- plugin:prettier/recommended
+
+env:
+  jest: true
+
+parserOptions:
+  ecmaVersion: 2019
+  sourceType: module
+
+rules:
+  prettier/prettier: error
+
